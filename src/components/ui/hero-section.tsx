@@ -4,7 +4,7 @@ import winnieHeadshot from "@/assets/winnie-headshot.jpg";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-primary flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-subtle opacity-50"></div>
       
       <div className="container mx-auto px-6 relative z-10">
