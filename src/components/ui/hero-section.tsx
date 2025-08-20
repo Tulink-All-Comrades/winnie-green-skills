@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Download } from "lucide-react";
-import winnieHeadshot from "@/assets/winnie-headshot.jpg";
+import winnieHeadshot from "@/assets/winnie-wambugu.jpeg";
 
 export function HeroSection() {
   return (
     <section className="relative min-h-screen bg-gradient-primary flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-subtle opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-primary opacity-50"></div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -32,14 +32,18 @@ export function HeroSection() {
                 <Mail className="mr-2 h-5 w-5" />
                 Get In Touch
               </Button>
+              <a href="../../src/assets/wangui-wambugu.pdf" download>
               <Button 
                 variant="outline" 
                 size="lg"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 transition-smooth"
+                className="border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 transition-smooth"
               >
+                
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
+                
               </Button>
+              </a>
             </div>
             
             <div className="flex items-center gap-6 pt-4">
